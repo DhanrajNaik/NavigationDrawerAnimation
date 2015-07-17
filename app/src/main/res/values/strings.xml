@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NavigationDrawerAnimation</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="primary">PRIMARY</string>
+    <string name="social">SOCIAL</string>
+    <string name="promotions">PROMOTIONS</string>
+
+    <string name="issues_item">ISSUES</string>
+    <string name="new_item">New</string>
+    <string name="pending_item">Pending</string>
+    <string name="solved_item">Solved</string>
+</resources>

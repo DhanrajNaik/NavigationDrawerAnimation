@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_fab_star"
+            android:title="@string/primary" />
+        <item
+            android:id="@+id/nav_productos"
+            android:icon="@drawable/ic_fab_star"
+            android:title="@string/social" />
+        <item
+            android:id="@+id/nav_carrito"
+            android:icon="@drawable/ic_fab_star"
+            android:title="@string/promotions" />
+
+
+        <item
+            android:id="@+id/issues"
+            android:title="@string/issues_item">
+            <menu>
+                <item
+                    android:id="@+id/nav_newissues"
+                    android:icon="@android:drawable/ic_lock_power_off"
+                    android:title="@string/new_item" />
+                <item
+                    android:id="@+id/nav_pendingissues"
+                    android:icon="@android:drawable/ic_lock_power_off"
+                    android:title="@string/pending_item" />
+                <item
+                    android:id="@+id/nav_solved"
+                    android:icon="@android:drawable/ic_lock_power_off"
+                    android:title="@string/solved_item" />
+
+            </menu>
+
+        </item>
+    </group>
+
+</menu>
